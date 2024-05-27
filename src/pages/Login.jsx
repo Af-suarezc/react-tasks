@@ -1,4 +1,4 @@
-import NavBar from "../src/components/NavBar"
+import NavBar from "../components/NavBar"
 import { Container, Box, TextField, Button, Typography, Link } from '@mui/material';
 import { Route, Routes, Link as RouterLink } from "react-router-dom";
 

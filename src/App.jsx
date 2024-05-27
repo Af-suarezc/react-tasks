@@ -1,8 +1,8 @@
-import Home from './Home.jsx'
+import Home from './pages/Home.jsx'
 import { Route, Routes } from "react-router-dom";
-import Login from './Login.jsx';
-import Session from './Session.jsx';
-import AddTasks from './AddTasks.jsx';
+import Login from './pages/Login.jsx';
+import Session from './pages/Session.jsx';
+import AddTasks from './pages/AddTasks.jsx';
 import  { useState } from 'react';
 export default function App() {
   const [tasks, setTasks]=useState([

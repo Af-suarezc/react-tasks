@@ -1,6 +1,6 @@
-import NavBar from "../src/components/NavBar"
-import Cards from "../src/components/Cards"
-import GenericAvatar from "../src/components/GenericAvatar"
+import NavBar from "../components/NavBar"
+import Cards from "../components/Cards"
+import GenericAvatar from "../components/GenericAvatar"
 import Paper from '@mui/material/Paper';
 import { styled } from '@mui/material/styles';
 
@@ -8,7 +8,7 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 
 
-import './pageStyles/session.css'
+import '../pageStyles/session.css'
 
 
 import { Route, Routes, Link as RouterLink } from "react-router-dom";

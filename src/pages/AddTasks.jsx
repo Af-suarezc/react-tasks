@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Container, TextField, Button, Typography, Box } from '@mui/material';
-import NavBar from '../src/components/NavBar';
-import './pageStyles/addtasks.css'
+import NavBar from '../components/NavBar';
+import '../pageStyles/addtasks.css'
 import { useNavigate } from 'react-router-dom';
 
 import { Route, Routes, Link as RouterLink } from "react-router-dom";

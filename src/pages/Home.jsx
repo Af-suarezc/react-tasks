@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
+import '../pageStyles/home.css'
 //Components
-import NavBar from '../src/components/NavBar'
-import Footer from './components/Footer'
+import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 import Paper from '@mui/material/Paper';
 import { styled } from '@mui/material/styles';
 
